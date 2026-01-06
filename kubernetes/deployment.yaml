@@ -16,7 +16,7 @@ spec:
         - name: bot
           image: 1t1scool/echo-bot:latest
           env:
-            - name: BOT_TOKEN
+            - name: HELLO_BOT_TOKEN
               valueFrom:
                 secretKeyRef:
                   name: tg-hello-bot-token
