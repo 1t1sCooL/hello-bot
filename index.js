@@ -7,7 +7,7 @@ if (!token) {
   process.exit(1);
 }
 
-const bot = new Telegraf("YOUR_BOT_TOKEN");
+const bot = new Telegraf(token);
 
 bot.command("help", (ctx) => {
   ctx.reply(`
